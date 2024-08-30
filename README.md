@@ -91,13 +91,16 @@ percentage of total variance explained by each principal component.
 
 In typical HTS experiments, PCA is a common tool used to analyze the similarity
 between samples and determine if the experimental variable of interest
-(genotype, knockout, etc.) represents a large source of variance. One of the
-most common visualization is to plot the first two principal components (which
-may not always represent a majority of variance in your dataset) against each
-other. Typically, one will examine the pattern of clustering in this plot to see
-if samples are grouped together in any meaningful pattern according to important
-experimental variables. The value or score of each sample in terms of its
-principal components may be found in the pca results object accessed by $x.
+(genotype, knockout, etc.) show any patterning or clustering in the PC biplot.
+The biplot is one of the most common visualizations and is created by plotting
+the first two principal components (which may not always represent a majority of
+variance in your dataset) against each other. Typically, one will examine the
+pattern of clustering in this plot to see if samples are grouped together in any
+meaningful pattern according to important experimental variables. It is
+important to remember that these components are linear combinations of the
+original features and are not easily interpretable. The value or score of each
+sample in terms of its principal components may be found in the pca results
+object accessed by $x.
 
 ## Hierarchical Clustering and Heatmaps
 
