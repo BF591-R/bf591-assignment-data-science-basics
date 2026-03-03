@@ -6,7 +6,9 @@ High dimensional data is typically time and resource-intensive to analyze,
 interpret and visualize. Gene expression data (including microarray data) often
 consists of measurements for tens of thousands of known genes for every sample.
 Learning methods to inspect, reduce and display high dimensional data is
-necessary for many machine learning and bioinformatics problems.
+necessary for many machine learning and bioinformatics problems. It is also a
+critical exploratory data analysis tool and one of the most widely used
+methodologies for this purpose. 
 
 ## Required Readings 
 
